@@ -17,8 +17,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-#### 💻Skills
-
 <!-- <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
@@ -33,14 +31,42 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
 <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" /> -->
 
+<div align="center">
+
+## Skills
+
 [![My Skills](https://skillicons.dev/icons?i=js,ts,php,dart,react,next,laravel,flutter,tailwind,bootstrap,mongodb,mysql,ps,pr,ai)](https://skillicons.dev)
 
-#### 🌐Social Media
+</div>
+
+---
+
+<div align="center">
+
+## Social Media
 
 ![https://instagram.com/nabeel.aby](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white) ![https://instagram.com/nabeel.aby](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white) ![https://instagram.com/nabeel.aby](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white) ![https://instagram.com/nabeel.aby](https://img.shields.io/badge/Strava-FC4C02?style=for-the-badge&logo=strava&logoColor=white) ![https://instagram.com/nabeel.aby](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
 
-#### 📊Stats
+</div>
 
-![Beel's GitHub stats](https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=github_dark)
+---
 
+<!-- ![Beel's GitHub stats](https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=github_dark) -->
 
+<div align="center">
+
+## Stats
+
+  <img src="https://github-readme-stats.vercel.app/api?username=beellionaire&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=github_dark&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=beellionaire&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=github_dark&hide_border=false" height="150" alt="languages graph"  />
+</div>
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beellionaire/beellionaire/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/beellionaire/beellionaire/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/beellionaire/beellionaire/output/pacman-contribution-graph.svg">
+</picture>
+
+###
