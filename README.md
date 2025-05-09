@@ -36,7 +36,10 @@
   <br> -->
   📫 How to reach me: <a href="mailto: nabeelabiyu@gmail.com">nabeelabiyu@gmail.com</a>
 </p>
-<hr>
+
+
+<br/>
+<br/>
 
 <!--
 **beellionaire/beellionaire** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -67,16 +70,14 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" /> -->
 
 <div align="center">
-
-<!-- ## Competencies -->
-
 <h2 align="center">✨ Competencies ✨</h2>
 
 [![My Skills](https://skillicons.dev/icons?i=js,ts,php,dart,react,next,laravel,flutter,tailwind,bootstrap,mongodb,mysql,ps,pr,ai)](https://skillicons.dev)
-
 </div>
 
----
+<br/>
+<br/>
+
 
 <!-- ![Beel's GitHub stats](https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=github_dark) -->
 
@@ -89,7 +90,6 @@ Here are some ideas to get you started:
 </div> -->
 
 <h2 align="center">⚡ Current Stats ⚡</h2>
-<br>
 <p align=center>
   <div align=center>
     <a href="https://github.com/denvercoder1/github-readme-streak-stats" title="Go to Source">
@@ -99,7 +99,7 @@ Here are some ideas to get you started:
       <img align="right" width=390 src="https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=react&border_color=61dafb&hide_border=true" />
     </a>
   </div>
-  <br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br>
   <div align=center>
     <a href="https://github.com/anuraghazra/github-readme-stats">
       <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=beellionaire&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true&size_weight=0.5&count_weight=0.5" />
@@ -110,8 +110,8 @@ Here are some ideas to get you started:
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=beellionaire&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
 
-<!-- <picture>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beellionaire/beellionaire/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/beellionaire/beellionaire/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/beellionaire/beellionaire/output/pacman-contribution-graph.svg">
-</picture> -->
+</picture>
