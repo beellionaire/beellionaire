@@ -71,7 +71,7 @@ Here are some ideas to get you started:
 <div align="center">
 <h2 align="center">✨ Competencies ✨</h2>
 
-![My Skills](https://skillicons.dev/icons?i=js,ts,php,golang,dart,react,next,laravel,flutter,tailwind,bootstrap,mongodb,mysql,ps,pr,ai)
+![My Skills](https://skillicons.dev/icons?i=js,ts,php,golang,dart,react,next,laravel,flutter,tailwind,mongodb,mysql,ps,pr,ai)
 
 </div>
 
