@@ -89,7 +89,7 @@ Here are some ideas to get you started:
 </div> -->
 
 <h2 align="center">⚡ Current Stats ⚡</h2>
-<p align=center>
+<!-- <p align=center>
   <div align=center>
       <img align="left" width=390 src="https://streak-stats.demolab.com/?user=beellionaire&theme=react&border=61dafb&hide_border=true" alt="beellionaire" />
       <img align="right" width=390 src="https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=react&border_color=61dafb&hide_border=true" />
@@ -100,7 +100,7 @@ Here are some ideas to get you started:
   </div>
   <br>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=beellionaire&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
-</p>
+</p> -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beellionaire/beellionaire/output/pacman-contribution-graph-dark.svg">
