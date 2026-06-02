@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Nabil%20Abiyu&fontSize=70&fontAlignY=35&desc=Software%20Engineer%20%7C%20UI/UX%20Designer&descAlignY=55&descAlign=50&descSize=20&animation=twinkling" width="100%" />
 
 <!-- Dynamic Typing Effect -->
-<a href="https://git.io/typing-svg">
+<a href="https://git.io/typing-svg" >
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Crafting%20Modern%20Web%20Experiences;Building%20Robust%20Backend%20Architectures;Exploring%20Fintech%20%26%20Trading%20Solutions;Designing%20Intuitive%20UI%2FUX&center=true&size=22&color=FF6A00&vCenter=true&width=600&height=50&duration=3000">
 </a>
 
@@ -24,7 +24,7 @@
 
 ### 👋 Nice to Meet You!
 
-Hi there! I'm Nabil. I am a software developer based in Indonesia, specializing in building scalable backend architectures and modern, intuitive frontends. I focus on writing clean, maintainable code and translating complex requirements into seamless digital experiences.
+<p class="text-center">Hi there! I'm Nabil. I am a software developer based in Indonesia, specializing in building scalable backend architectures and modern, intuitive frontends. I focus on writing clean, maintainable code and translating complex requirements into seamless digital experiences.</p>
 
 <br>
 
