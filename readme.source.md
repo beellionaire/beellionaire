@@ -99,35 +99,57 @@
 ```
 
 ```aura width=800 height=200
-<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: 'rgba(255,255,255,0.015)', borderRadius: 24, border: '1px solid rgba(255,255,255,0.06)', overflow: 'hidden', fontFamily: 'Inter, sans-serif', backdropFilter: 'blur(20px)' }}>
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: 'transparent', fontFamily: 'Inter, sans-serif' }}>
 
-  <svg width="800" height="200" style={{ position: 'absolute', top: 0, left: 0, zIndex: 0 }}>
-    <defs>
-      <radialGradient id="stack-glow" cx="50%" cy="50%" r="60%">
-        <stop offset="0%" stopColor="rgba(255,255,255,0.03)" />
-        <stop offset="100%" stopColor="rgba(255,255,255,0)" />
-      </radialGradient>
-    </defs>
-    <rect width="100%" height="100%" fill="url(#stack-glow)" />
-  </svg>
+  {/* Main Pill Container */}
+  <div style={{
+    position: 'relative',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '90%',
+    height: 72,
+    background: '#060608',
+    borderRadius: 60,
+    border: '1px solid rgba(90, 70, 140, 0.25)',
+    overflow: 'hidden',
+    boxShadow: '0 8px 30px rgba(0,0,0,0.6)'
+  }}>
 
-  <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', letterSpacing: '5px', textTransform: 'uppercase', marginBottom: 24, zIndex: 10, fontWeight: 600 }}>Core Stack</span>
+    {/* Ambient Glows inside the container (Bottom Right Bleed) */}
+    <div style={{ position: 'absolute', bottom: -40, right: 60, width: 300, height: 120, background: 'radial-gradient(ellipse, rgba(0, 110, 255, 0.45) 0%, rgba(120, 40, 255, 0.2) 50%, transparent 70%)', filter: 'blur(20px)', zIndex: 0 }}></div>
+    <div style={{ position: 'absolute', bottom: -20, right: -20, width: 150, height: 80, background: 'radial-gradient(ellipse, rgba(255, 80, 150, 0.15) 0%, transparent 70%)', filter: 'blur(15px)', zIndex: 0 }}></div>
 
-  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, justifyContent: 'center', zIndex: 10, maxWidth: 680 }}>
-    {['Laravel', 'Next.js', 'React', 'Tailwind CSS', 'Telegram API', 'MySQL', 'TypeScript', 'Figma'].map((tech, i) => (
-      <span key={i} style={{
-        padding: '8px 22px',
-        background: 'rgba(255,255,255,0.03)',
-        color: 'rgba(255,255,255,0.8)',
-        borderRadius: 12,
-        fontSize: 12,
-        fontWeight: 500,
-        border: '1px solid rgba(255,255,255,0.1)',
-        letterSpacing: '0.5px',
-        boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-        backdropFilter: 'blur(5px)'
-      }}>{tech}</span>
-    ))}
+    {/* Tech Tags */}
+    <div style={{ display: 'flex', gap: 14, zIndex: 10, padding: '0 20px' }}>
+
+      <span style={{
+        padding: '8px 20px', borderRadius: 24, border: '1px solid rgba(110, 80, 200, 0.4)',
+        color: '#8bcefa', fontSize: 13, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
+      }}>TypeScript</span>
+
+      <span style={{
+        padding: '8px 20px', borderRadius: 24, border: '1px solid rgba(110, 80, 200, 0.4)',
+        color: '#7ae28d', fontSize: 13, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
+      }}>Laravel</span>
+
+      <span style={{
+        padding: '8px 20px', borderRadius: 24, border: '1px solid rgba(110, 80, 200, 0.4)',
+        color: '#e8b0ff', fontSize: 13, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
+      }}>Next.js</span>
+
+      <span style={{
+        padding: '8px 20px', borderRadius: 24, border: '1px solid rgba(110, 80, 200, 0.4)',
+        color: '#6bf0ff', fontSize: 13, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
+      }}>React JSX</span>
+
+      <span style={{
+        padding: '8px 20px', borderRadius: 24, border: '1px solid rgba(110, 80, 200, 0.4)',
+        color: '#ffc299', fontSize: 13, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
+      }}>Tailwind CSS</span>
+
+    </div>
+
   </div>
 </div>
 ```
