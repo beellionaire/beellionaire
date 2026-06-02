@@ -1,63 +1,70 @@
 <div align="center">
-  <h1 style="border-bottom: none; margin-bottom: 0;">Nabil Abiyu</h1>
-  <h3 style="margin-top: 0; color: #58a6ff;">Full-Stack Software Engineer | UI/UX Designer</h3>
-  
+  <!-- Minimalist Typography Header -->
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=180&section=header&text=Nabil%20Abiyu&fontSize=65&fontAlignY=45&fontColor=ffffff&desc=Software%20Engineer%20%E2%80%A2%20UI/UX%20Designer&descAlignY=70&descSize=16&descColor=8b949e" alt="Nabil Abiyu" />
+
+  <!-- Monochromatic Flat Badges -->
   <p align="center">
-    <a href="mailto:nabeelabiyu@gmail.com"><img src="https://img.shields.io/badge/Email-222222?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-    <a href="https://www.linkedin.com/in/nabil-abiyu-62622127b/"><img src="https://img.shields.io/badge/LinkedIn-222222?style=for-the-badge&logo=linkedin&logoColor=0077B5" alt="LinkedIn" /></a>
-    <a href="https://beellionaire.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" /></a>
-    <a href="https://github.com/beellionaire"><img src="https://img.shields.io/badge/GitHub-222222?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="mailto:nabeelabiyu@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=flat-square&logo=gmail&logoColor=ffffff" alt="Email" /></a>
+    <a href="https://www.linkedin.com/in/nabil-abiyu-62622127b/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=ffffff" alt="LinkedIn" /></a>
+    <a href="https://beellionaire.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=ffffff" alt="Portfolio" /></a>
   </p>
 </div>
 
 <br>
 
-> **About Me**  
-> I am a software developer based in Indonesia, specializing in building scalable backend architectures and modern, intuitive frontends. I focus on writing clean, maintainable code and translating complex requirements into seamless digital experiences.
+<div align="center">
+  <p style="font-size: 15px; color: #8b949e; line-height: 1.8; max-width: 650px;">
+    Architecting robust web ecosystems and designing intuitive digital experiences from Indonesia. Focused on clean code, seamless API integrations, and building scalable platforms that deliver real value.
+  </p>
+</div>
 
-<br>
+<br><br>
 
-<table width="100%" style="border: none; background-color: transparent;">
+<table width="100%" style="border: none; background-color: transparent; border-collapse: collapse;">
   <tr style="border: none;">
-    <td width="50%" valign="top" style="border: none;">
-      <h3 style="border-bottom: 1px solid #30363d; padding-bottom: 5px;">🎯 Current Focus</h3>
-      <ul>
-        <li>Architecting robust <b>Full-Stack Web Applications</b>.</li>
-        <li>Developing a localized <b>Stock Trading Assistant</b> platform.</li>
-        <li>Implementing real-time automation via <b>Telegram Webhooks</b>.</li>
-        <li>Designing user-centric interfaces <b>(UI/UX)</b> and digital assets.</li>
+    <!-- Section 1: Current Initiatives -->
+    <td width="50%" valign="top" style="border: none; padding-right: 30px;">
+      <h3 style="color: #ffffff; border-bottom: 1px solid #30363d; padding-bottom: 10px; font-weight: 400; letter-spacing: 1px;">⟡ INITIATIVES</h3>
+      <ul style="color: #8b949e; line-height: 1.8; font-size: 14px;">
+        <li>Building scalable architectures using <b>Laravel</b> & <b>Next.js</b>.</li>
+        <li>Engineering a localized <b>Stock Trading Assistant</b> platform.</li>
+        <li>Developing real-time automations via <b>Telegram Webhooks</b>.</li>
+        <li>Crafting pixel-perfect, user-centric <b>UI/UX designs</b>.</li>
       </ul>
     </td>
-    <td width="50%" valign="top" style="border: none;">
-      <h3 style="border-bottom: 1px solid #30363d; padding-bottom: 5px;">⚙️ Core Technologies</h3>
-      <b>Frontend</b><br>
-      <img src="https://skillicons.dev/icons?i=js,ts,react,next,tailwind&theme=dark" height="30" alt="Frontend" /><br><br>
-      <b>Backend & Database</b><br>
-      <img src="https://skillicons.dev/icons?i=php,laravel,golang,mysql,mongodb&theme=dark" height="30" alt="Backend" /><br><br>
-      <b>Design & Tools</b><br>
-      <img src="https://skillicons.dev/icons?i=figma,ps,pr,git,vscode&theme=dark" height="30" alt="Tools" />
+    <!-- Section 2: Tech Arsenal -->
+    <td width="50%" valign="top" style="border: none; padding-left: 30px;">
+      <h3 style="color: #ffffff; border-bottom: 1px solid #30363d; padding-bottom: 10px; font-weight: 400; letter-spacing: 1px;">⟡ ARSENAL</h3>
+      <p align="left">
+        <b style="color: #ffffff; font-size: 12px; letter-spacing: 1px;">LANGUAGES</b><br>
+        <img src="https://skillicons.dev/icons?i=js,ts,php,golang,dart&theme=dark" height="26" alt="Languages" /><br><br>
+        <b style="color: #ffffff; font-size: 12px; letter-spacing: 1px;">FRAMEWORKS</b><br>
+        <img src="https://skillicons.dev/icons?i=react,next,tailwind,laravel,flutter&theme=dark" height="26" alt="Frameworks" /><br><br>
+        <b style="color: #ffffff; font-size: 12px; letter-spacing: 1px;">TOOLS & DESIGN</b><br>
+        <img src="https://skillicons.dev/icons?i=mysql,mongodb,figma,ps,pr&theme=dark" height="26" alt="Tools" />
+      </p>
     </td>
   </tr>
 </table>
 
-<br>
+<br><br>
 
-<h3 style="border-bottom: 1px solid #30363d; padding-bottom: 5px;">📊 Performance & Metrics</h3>
+<h3 style="color: #ffffff; border-bottom: 1px solid #30363d; padding-bottom: 10px; font-weight: 400; letter-spacing: 1px;">⟡ METRICS</h3>
 
+<!-- Invisible Stats (Transparent background matching GitHub dark mode) -->
 <p align="center">
-  <!-- Menggunakan tema 'github_dark' agar menyatu secara profesional dengan background GitHub -->
-  <img src="https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&v=3" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beellionaire&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&v=3" width="48%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=transparent&hide_border=true&title_color=ffffff&text_color=8b949e&icon_color=ffffff&v=5" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beellionaire&layout=compact&theme=transparent&hide_border=true&title_color=ffffff&text_color=8b949e&v=5" width="48%" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=beellionaire&theme=github-dark&hide_border=true&bg_color=0d1117&v=3" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=beellionaire&bg_color=transparent&color=ffffff&line=30363d&point=ffffff&hide_border=true&v=5" width="100%" alt="Activity Graph" />
 </p>
 
 <br>
 
 <div align="center">
-  <p style="color: #8b949e; font-size: 13px;">
-    <i>Designed with precision and built for scale.</i>
+  <p style="color: #484f58; font-family: monospace; font-size: 11px; letter-spacing: 2px;">
+    CRAFTED WITH PRECISION
   </p>
 </div>
