@@ -38,7 +38,7 @@
   {/* Content Layer */}
   <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
     <span style={{ fontSize: 64, fontWeight: 800, color: '#ffffff', letterSpacing: '-2px', lineHeight: 1, textShadow: '0 4px 20px rgba(0,0,0,0.8)' }}>beellionaire</span>
-    <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.7)', marginTop: 16, letterSpacing: '6px', textTransform: 'uppercase', fontWeight: 500 }}>engineering · ui/ux · fintech</span>
+    <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.7)', marginTop: 16, letterSpacing: '6px', textTransform: 'uppercase', fontWeight: 500 }}>engineering · ui/ux</span>
 
     <div style={{ display: 'flex', gap: 10, marginTop: 30 }}>
       <span style={{ padding: '6px 18px', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.9)', borderRadius: 8, fontSize: 11, fontWeight: 500, border: '1px solid rgba(255,255,255,0.15)', letterSpacing: 1 }}>Front-end</span>
