@@ -21,16 +21,16 @@
 
 ---
 
-### 🚀 About Me
+### 🚀 Kenalan Dulu, Yuk!
 
 <p align="center">
-  Berbasis di Indonesia 🇮🇩, saya memiliki ketertarikan mendalam dalam merancang sistem yang efisien dan antarmuka pengguna yang memukau. Saya fokus membangun aplikasi skalabel dari hulu ke hilir.
+  Halo! 👋 Aku Nabil. Saat ini lagi asyik <i>explore</i> dunia <i>software development</i> dari Indonesia 🇮🇩. Aku suka banget meracik <i>website</i> yang nggak cuma tangguh dan ngebut di belakang layar, tapi juga <i>aesthetic</i> dan nyaman dipakai. <i>Turning coffee into clean, scalable code!</i> ☕
 </p>
 
 <p align="center">
-  🔭 <b>Fokus Saat Ini:</b> Membangun platform web terintegrasi, alat bantu finansial/trading, dan riset pengembangan perangkat lunak.<br>
-  💡 <b>Tech Arsenal:</b> Full-stack development menggunakan <b>Laravel</b>, <b>Next.js</b>, serta optimasi otomatisasi via <b>Telegram API Webhooks</b>.<br>
-  🎨 <b>Beyond Code:</b> Menghidupkan ide melalui <i>Graphic Design</i>, <i>Video Editing</i>, dan perancangan <i>UI/UX</i> yang intuitif.
+  🔭 <b>Lagi Sibuk Apa?</b> Sekarang lagi seru-serunya nyelesaiin riset integrasi web, dan lagi semangat banget ngembangin platform asisten <i>trading</i> saham buat <i>market</i> lokal.<br>
+  💻 <b>Senjata Andalan:</b> Paling nyaman ngerjain <i>full-stack project</i> pakai <b>Laravel</b> & <b>Next.js</b>. Plus, lagi hobi ngoprek otomatisasi notifikasi pakai <b>Telegram Webhooks</b>!<br>
+  🎨 <b>Sisi Kreatif:</b> Kalau lagi butuh jeda dari mikirin <i>error code</i>, biasanya aku <i>switch</i> mode buat ngerjain <i>UI/UX</i>, <i>Graphic Design</i>, atau sekadar <i>Video Editing</i>.
 </p>
 
 <br>
@@ -39,10 +39,9 @@
 
 ### 🛠️ Tech Stack & Creative Tools
 
-<!-- Menggunakan Skillicons dengan tema gelap dan tata letak terpusat tanpa tabel -->
 <p align="center">
   <br>
-  <b>Frontend & Frameworks</b><br><br>
+  <b>✨ Frontend & Frameworks</b><br><br>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=js,ts,react,next,tailwind,bootstrap,dart,flutter&theme=dark" />
   </a>
@@ -50,7 +49,7 @@
 
 <p align="center">
   <br>
-  <b>Backend & Databases</b><br><br>
+  <b>⚙️ Backend & Databases</b><br><br>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=php,laravel,golang,mysql,mongodb&theme=dark" />
   </a>
@@ -58,7 +57,7 @@
 
 <p align="center">
   <br>
-  <b>Design & Development Tools</b><br><br>
+  <b>🎨 Design & Development Tools</b><br><br>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=vscode,git,github,ps,pr,ai,figma&theme=dark" />
   </a>
@@ -70,11 +69,11 @@
 
 ### ⚡ Performance & Analytics
 
-<!-- Statistik Transparan (Bug fix pada parameter URL) -->
-<!-- <p align="center">
+<!-- Statistik Transparan diaktifkan kembali -->
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=transparent&hide_border=true&title_color=FF6A00&icon_color=FF6A00&text_color=a6adc8" height="180" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beellionaire&layout=compact&theme=transparent&hide_border=true&title_color=FF6A00&text_color=a6adc8" height="180" alt="Top Languages" />
-</p> -->
+</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=beellionaire&theme=transparent&hide_border=true&title_color=FF6A00&text_color=a6adc8&icon_color=FF6A00" alt="GitHub Streak" />
@@ -84,7 +83,6 @@
 
 ### 📈 Activity Graph
 
-<!-- Grafik Aktivitas dengan warna garis oranye yang konsisten -->
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=beellionaire&bg_color=transparent&color=FF6A00&line=FF6A00&point=FFFFFF&hide_border=true" width="100%" alt="Activity Graph" />
 </p>
