@@ -186,16 +186,16 @@
 
 ```aura width=138 height=44 link="https://x.com/collectioneur" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/x/ffffff"
-  text="X.com"
-  backgroundColor="#111111"
-  width={138}
-  height={44}
-  gradientStops={[
-    { offset: '0%', color: 'rgba(255,255,255,0.8)' },
-    { offset: '20%', color: 'rgba(255,255,255,0.05)' },
-    { offset: '100%', color: 'rgba(255,255,255,0)' },
-  ]}
+  icon="https://cdn.simpleicons.org/linkedin/0a66c2"
+  text="LinkedIn"
+  backgroundColor="#030e17"
+  width={145}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#0a66c2' },
+    { offset: '30%', color: 'rgba(10,102,194,0.1)' },
+    { offset: '100%', color: 'rgba(0,0,0,0)' },
+  ]}
 />
 ```
 
