@@ -24,13 +24,13 @@
 
 ### 👋 Nice to Meet You!
 
-Hi there! I'm Nabil. Thanks for dropping by my GitHub. I'm a software developer based in Indonesia 🇮🇩 who genuinely enjoys building web applications from the ground up. For me, coding isn't just about typing lines of syntax until a program runs; it's about crafting systems that are rock-solid under the hood while maintaining a sleek, user-friendly experience on the surface.
+Hi there! I'm Nabil. Thanks for dropping by my GitHub. I'm a software developer based in Indonesia 🇮🇩 who genuinely enjoys building web applications from the ground up. For me, coding isn't just about typing lines of syntax; it's about crafting systems that are rock-solid under the hood while maintaining a sleek, user-friendly experience.
 
 **Here’s what I’m currently up to:**
 
-*   💻 **The Daily Grind:** I spend most of my time building full-stack projects. I usually go with **Laravel** to handle the heavy lifting on the backend, paired with **Next.js**, **React**, or **Tailwind CSS** to keep the frontend snappy and modern. It’s a combo that just feels right for building scalable systems.
-*   📈 **Passion Projects:** Lately, I've been diving deep into the fintech space, specifically developing a stock trading assistant tailored for the local market. I'm also having a lot of fun experimenting with real-time automation and custom notifications using **Telegram Bot Webhooks**.
-*   🎨 **Creative Escapes:** Whenever my brain feels a little fried from chasing stubborn bugs, I switch gears and open up my design tools. Whether it's drafting up fresh **UI/UX** interfaces, doing some graphic design, or editing videos, it’s my favorite way to hit refresh and keep the creativity flowing.
+*   💻 **The Daily Grind:** I build scalable full-stack web applications, primarily using **Laravel** for robust backends and **Next.js** for snappy frontends.
+*   📈 **Passion Projects:** I am currently developing a stock trading assistant for the Indonesian market and experimenting with real-time automation using **Telegram Bot Webhooks**.
+*   🎨 **Creative Escapes:** Whenever I need a break from code, I switch to my design tools to work on **UI/UX**, graphic design, and video editing.
 
 <br>
 
