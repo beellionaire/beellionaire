@@ -22,8 +22,6 @@
 
 </div>
 
-### 👋 Nice to Meet You!
-
 <div align="center">Hi there! I'm Nabil. I am a software developer based in Indonesia, specializing in building scalable backend architectures and modern, intuitive frontends. I focus on writing clean, maintainable code and translating complex requirements into seamless digital experiences.</div>
 
 <br>
@@ -54,12 +52,6 @@
 <br><br>
 
 ### ⚡ Journey & Metrics
-
-<!-- Proportionally sized stats -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=transparent&hide_border=true&title_color=FF6A00&icon_color=FF6A00&text_color=a6adc8" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beellionaire&layout=compact&theme=transparent&hide_border=true&title_color=FF6A00&text_color=a6adc8" width="48%" alt="Top Languages" />
-</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=beellionaire&theme=transparent&hide_border=true&title_color=FF6A00&text_color=a6adc8&icon_color=FF6A00" width="100%" alt="GitHub Streak" />
