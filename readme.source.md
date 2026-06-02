@@ -1,9 +1,8 @@
-
-
 ```aura width=860 height=200 link="https://collectioneur.github.io/readme-aura/"
 <div style={{
   width: '100%', height: '100%', background: '#08080c',
-  display: 'flex', alignItems: 'center', fontFamily: 'Inter',
+  display: 'flex', flexDirection: 'column', gap: '16px',
+  padding: '24px', boxSizing: 'border-box', fontFamily: 'Inter, sans-serif',
   position: 'relative', overflow: 'hidden', borderRadius: 16,
   border: '1px solid rgba(110,80,220,0.18)'
 }}>
@@ -44,88 +43,118 @@
       #glow-8 { animation: float-pulse 7s ease-in-out infinite; }
     `}</style>
 
-  <svg width="860" height="200" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="100%" height="100%" style={{ position: 'absolute', top: 0, left: 0, zIndex: 0 }}>
     <defs>
       <radialGradient id="g1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(110,20,210,0.72)" />
-        <stop offset="40%" stopColor="rgba(90,15,180,0.35)" />
+        <stop offset="0%" stopColor="rgba(110,20,210,0.5)" />
         <stop offset="70%" stopColor="rgba(90,15,180,0)" />
       </radialGradient>
       <radialGradient id="g2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(40,60,255,0.6)" />
-        <stop offset="45%" stopColor="rgba(30,50,200,0.25)" />
+        <stop offset="0%" stopColor="rgba(40,60,255,0.4)" />
         <stop offset="70%" stopColor="rgba(30,50,200,0)" />
       </radialGradient>
       <radialGradient id="g3" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(0,130,255,0.45)" />
-        <stop offset="50%" stopColor="rgba(0,100,220,0.18)" />
+        <stop offset="0%" stopColor="rgba(0,130,255,0.3)" />
         <stop offset="70%" stopColor="rgba(0,100,220,0)" />
       </radialGradient>
-      <radialGradient id="g4" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(0,190,230,0.32)" />
-        <stop offset="70%" stopColor="rgba(0,190,230,0)" />
-      </radialGradient>
-      <radialGradient id="g5" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(90,30,200,0.38)" />
-        <stop offset="70%" stopColor="rgba(90,30,200,0)" />
-      </radialGradient>
-      <radialGradient id="g6" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(160,30,255,0.55)" />
-        <stop offset="45%" stopColor="rgba(130,20,220,0.22)" />
-        <stop offset="70%" stopColor="rgba(130,20,220,0)" />
-      </radialGradient>
-      <radialGradient id="g7" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(20,60,255,0.42)" />
-        <stop offset="50%" stopColor="rgba(10,40,200,0.16)" />
-        <stop offset="70%" stopColor="rgba(10,40,200,0)" />
-      </radialGradient>
-      <radialGradient id="g8" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(0,170,255,0.40)" />
-        <stop offset="50%" stopColor="rgba(0,130,220,0.15)" />
-        <stop offset="70%" stopColor="rgba(0,130,220,0)" />
-      </radialGradient>
     </defs>
-
     <ellipse id="glow-1" cx="180" cy="230" rx="260" ry="190" fill="url(#g1)" />
     <ellipse id="glow-2" cx="300" cy="240" rx="220" ry="160" fill="url(#g2)" />
     <ellipse id="glow-3" cx="420" cy="240" rx="180" ry="140" fill="url(#g3)" />
-    <ellipse id="glow-4" cx="550" cy="250" rx="150" ry="120" fill="url(#g4)" />
-    <ellipse id="glow-5" cx="750" cy="250" rx="130" ry="110" fill="url(#g5)" />
-    <ellipse id="glow-6" cx="300" cy="240" rx="180" ry="140" fill="url(#g6)" />
-    <ellipse id="glow-7" cx="490" cy="230" rx="220" ry="170" fill="url(#g7)" />
-    <ellipse id="glow-8" cx="590" cy="250" rx="150" ry="130" fill="url(#g8)" />
   </svg>
 
+  {/* GRID 1: FULL ATAS (TEXT) */}
   <div style={{
-    position: 'absolute', left: 48, top: 52, width: 96, height: 96,
-    borderRadius: 48, background: 'linear-gradient(135deg, #6622ee, #0088ff)',
-    display: 'flex', alignItems: 'center', justifyContent: 'center',
+    width: '100%', flex: 1.2, zIndex: 10, borderRadius: 12,
+    background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)',
+    display: 'flex', alignItems: 'center', justifyContent: 'center', backdropFilter: 'blur(12px)'
   }}>
-    <img src={github?.user?.avatarUrl ?? 'https://github.com/beellionaire.png'} width={88} height={88} style={{ borderRadius: 44 }} />
+    <div style={{ fontSize: 56, fontWeight: 900, color: '#ffffff', letterSpacing: '-2px', textTransform: 'lowercase' }}>
+      beellionaire
+    </div>
   </div>
 
-  <div style={{ display:'flex', flexDirection:'column', marginLeft:168, gap:8, zIndex: 10 }}>
-    <div style={{ display:'flex', fontSize:38, fontWeight:800, color:'#ffffff', letterSpacing:'-1px', lineHeight:1 }}>
-      {github?.user?.name || github?.user?.login || 'beellionaire' || 'Name'}
+  {/* GRID 2: 2 KOLOM (DESKRIPSI & STACK) */}
+  <div style={{ display: 'flex', width: '100%', gap: '16px', zIndex: 10, flex: 2 }}>
+
+    {/* Kolom Deskripsi */}
+    <div style={{
+      flex: 1, padding: '24px', borderRadius: 12,
+      background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)',
+      display: 'flex', flexDirection: 'column', justifyContent: 'center', backdropFilter: 'blur(12px)'
+    }}>
+      <div style={{ color: 'rgba(255,255,255,0.4)', fontSize: 11, letterSpacing: '4px', textTransform: 'uppercase', marginBottom: 12, fontWeight: 600 }}>
+        About
+      </div>
+      <div style={{ color: '#e2e8f0', fontSize: 15, lineHeight: 1.6, fontWeight: 400 }}>
+        Building robust backend ecosystems, pixel-perfect UIs, and localized Fintech trading platforms. Dedicated to bridging complex logic with seamless user experiences.
+      </div>
     </div>
-    <div style={{ display:'flex', fontSize:15, color:'rgba(180,165,255,0.8)', fontWeight:400, letterSpacing:'0.3px' }}>
-      {github?.user?.bio || 'Put here your bio'}
+
+    {/* Kolom Stack */}
+    <div style={{
+      flex: 1, padding: '24px', borderRadius: 12,
+      background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)',
+      display: 'flex', flexDirection: 'column', justifyContent: 'center', backdropFilter: 'blur(12px)'
+    }}>
+      <div style={{ color: 'rgba(255,255,255,0.4)', fontSize: 11, letterSpacing: '4px', textTransform: 'uppercase', marginBottom: 16, fontWeight: 600 }}>
+        Core Stack
+      </div>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
+        {['Laravel', 'Next.js', 'React', 'Tailwind CSS', 'Telegram API', 'MySQL'].map(function(tag, i) {
+          return (
+            <div key={i} style={{
+              display: 'flex', padding: '6px 14px', borderRadius: 20,
+              background: 'rgba(80,40,220,0.15)', border: '1px solid rgba(100,70,240,0.3)',
+              color: 'rgba(205,195,255,0.9)', fontSize: 12, fontWeight: 600
+            }}>{tag}</div>
+          );
+        })}
+      </div>
     </div>
-    <div style={{ display:'flex', gap:8, marginTop:6, flexWrap: 'wrap' }}>
-      {((github && github.languages && github.languages.length > 0)
-        ? github.languages.slice(0, 4).map(function(l) { return l.name; })
-        : ['readme-aura', 'other technologies']
-      ).map(function(tag, i) {
-        return (
-          <div key={tag + '-' + i} style={{
-            display:'flex', padding:'4px 12px', borderRadius:20,
-            background:'rgba(80,40,220,0.18)', border:'1px solid rgba(100,70,240,0.32)',
-            color:'rgba(205,195,255,0.85)', fontSize:12, fontWeight:600,
-          }}>{tag}</div>
-        );
-      })}
-    </div>
+
   </div>
+
+  {/* GRID 3: FULL BAWAH (SOCIAL MEDIA) */}
+  <div style={{
+    width: '100%', flex: 1, zIndex: 10, borderRadius: 12,
+    background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)',
+    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '20px', backdropFilter: 'blur(12px)'
+  }}>
+    <SocialMediaButton
+      icon="github"
+      text="GitHub"
+      backgroundColor="#111111"
+      width={150}
+      height={44}
+      gradientStops={[
+        { offset: '0%', color: '#ffffff' },
+        { offset: '10%', color: '#111111' },
+        { offset: '50%', color: '#eeeeee' },
+        { offset: '60%', color: '#1af4ff' },
+        { offset: '80%', color: '#111111' },
+        { offset: '100%', color: '#555555' },
+      ]}
+      iconSize="24"
+    />
+    <SocialMediaButton
+      icon="linkedin"
+      text="LinkedIn"
+      backgroundColor="#111111"
+      width={150}
+      height={44}
+      gradientStops={[
+        { offset: '0%', color: '#ffffff' },
+        { offset: '10%', color: '#111111' },
+        { offset: '50%', color: '#eeeeee' },
+        { offset: '60%', color: '#1af4ff' },
+        { offset: '80%', color: '#111111' },
+        { offset: '100%', color: '#555555' },
+      ]}
+      iconSize="24"
+    />
+  </div>
+
 </div>
 ```
 
