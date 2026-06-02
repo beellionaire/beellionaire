@@ -24,7 +24,7 @@
 
 ### 👋 Nice to Meet You!
 
-<p class="text-center">Hi there! I'm Nabil. I am a software developer based in Indonesia, specializing in building scalable backend architectures and modern, intuitive frontends. I focus on writing clean, maintainable code and translating complex requirements into seamless digital experiences.</p>
+<div align="center">Hi there! I'm Nabil. I am a software developer based in Indonesia, specializing in building scalable backend architectures and modern, intuitive frontends. I focus on writing clean, maintainable code and translating complex requirements into seamless digital experiences.</div>
 
 <br>
 
