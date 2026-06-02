@@ -105,20 +105,40 @@
 ```aura width=800 height=200
 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: 'transparent', fontFamily: 'Inter, sans-serif' }}>
   <style>{`
-    @keyframes stack-pulse {
-      0%, 100% { opacity: 0.6; }
-      50% { opacity: 1; }
+    @keyframes stack-pulse-a {
+      0%, 100% { transform: translateY(0px) scale(1); opacity: 0.6; }
+      50% { transform: translateY(-10px) scale(1.05); opacity: 1; }
     }
-    .stack-glow-1 { animation: stack-pulse 7s ease-in-out infinite; }
-    .stack-glow-2 { animation: stack-pulse 9s ease-in-out infinite 1s; }
+    @keyframes stack-pulse-b {
+      0%, 100% { transform: translateY(0px) scale(1); opacity: 0.5; }
+      50% { transform: translateY(-15px) scale(1.1); opacity: 0.9; }
+    }
+    #sg-1 { animation: stack-pulse-a 8s ease-in-out infinite; }
+    #sg-2 { animation: stack-pulse-b 10s ease-in-out infinite 2s; }
   `}</style>
 
   {/* Main Pill Container */}
-  <div style={{ position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#060608', borderRadius: 16, border: '1px solid rgba(110, 80, 200, 0.25)', overflow: 'hidden', boxShadow: '0 8px 30px rgba(0,0,0,0.6)' }}>
+  <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#060608', borderRadius: 16, border: '1px solid rgba(110, 80, 200, 0.25)', overflow: 'hidden', boxShadow: '0 8px 30px rgba(0,0,0,0.6)' }}>
 
-    {/* Ambient Glows */}
-    <div className="stack-glow-1" style={{ position: 'absolute', bottom: -50, right: 80, width: 450, height: 180, background: 'radial-gradient(ellipse, rgba(0, 110, 255, 0.4) 0%, rgba(120, 40, 255, 0.2) 50%, transparent 70%)', zIndex: 0 }}></div>
-    <div className="stack-glow-2" style={{ position: 'absolute', bottom: -20, right: -20, width: 250, height: 120, background: 'radial-gradient(ellipse, rgba(255, 80, 150, 0.2) 0%, transparent 70%)', zIndex: 0 }}></div>
+    {/* Ambient Glows - Menggunakan SVG agar animasi terbaca sempurna oleh Satori */}
+    <svg width="100%" height="100%" style={{ position: 'absolute', top: 0, left: 0, zIndex: 0 }}>
+      <defs>
+        <radialGradient id="stackGrad1" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stopColor="rgba(0, 110, 255, 0.5)" />
+          <stop offset="50%" stopColor="rgba(120, 40, 255, 0.25)" />
+          <stop offset="100%" stopColor="rgba(120, 40, 255, 0)" />
+        </radialGradient>
+        <radialGradient id="stackGrad2" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stopColor="rgba(255, 80, 150, 0.3)" />
+          <stop offset="100%" stopColor="rgba(255, 80, 150, 0)" />
+        </radialGradient>
+      </defs>
+      <ellipse id="sg-1" cx="70%" cy="130%" rx="350" ry="120" fill="url(#stackGrad1)" />
+      <ellipse id="sg-2" cx="95%" cy="100%" rx="180" ry="100" fill="url(#stackGrad2)" />
+    </svg>
+
+    {/* Title Core Stack */}
+    <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', letterSpacing: '4px', textTransform: 'uppercase', marginBottom: 16, fontWeight: 600, zIndex: 10 }}>core stack</span>
 
     {/* Tech Tags */}
     <div style={{ display: 'flex', gap: 14, zIndex: 10, padding: '0 20px' }}>
