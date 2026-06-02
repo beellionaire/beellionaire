@@ -82,23 +82,39 @@
   </div>
 
   {/* Mini Cards */}
-  <div style={{ display: 'flex', flexDirection: 'column', gap: 12, flex: 0.8 }}>
-    <div style={{ position: 'relative', display: 'flex', flex: 1, background: 'rgba(255,255,255,0.02)', borderRadius: 12, border: '1px solid rgba(255,255,255,0.06)', overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
-      <div className="ambient-anim" style={{ position: 'absolute', top: '-50%', left: '-50%', width: '200%', height: '200%', background: 'radial-gradient(circle, rgba(110, 80, 255, 0.15) 0%, transparent 60%)' }}></div>
-      <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
-        <span style={{ fontSize: 24, fontWeight: 700, color: '#ffffff', marginBottom: 4 }}>🎯</span>
-        <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.6)', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: 600 }}>always learning</span>
-      </div>
-    </div>
-
-    <div style={{ position: 'relative', display: 'flex', flex: 1, background: 'rgba(255,255,255,0.02)', borderRadius: 12, border: '1px solid rgba(255,255,255,0.06)', overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
-      <div className="ambient-anim" style={{ position: 'absolute', top: '-50%', right: '-50%', width: '200%', height: '200%', background: 'radial-gradient(circle, rgba(226, 200, 122, 0.1) 0%, transparent 60%)' }}></div>
-      <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
-        <span style={{ fontSize: 24, fontWeight: 700, color: '#ffffff', marginBottom: 4 }}>⭐</span>
-        <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.6)', letterSpacing: '2px', textTransform: 'uppercase', fontWeight: 600 }}>craft matters</span>
-      </div>
-    </div>
+  {/* STREAMING_CHUNK:Rendering Repos Stat Card */}
+<div style={{ position: 'relative', display: 'flex', flex: 1, background: 'rgba(255,255,255,0.02)', borderRadius: 12, border: '1px solid rgba(255,255,255,0.06)', overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
+  <svg width="100%" height="100%" style={{ position: 'absolute', top: 0, left: 0, zIndex: 0 }}>
+    <defs>
+      <radialGradient id="stat-glow-repos" cx="0%" cy="100%" r="90%">
+        <stop offset="0%" stopColor="rgba(168, 127, 251, 0.15)" />
+        <stop offset="100%" stopColor="rgba(168, 127, 251, 0)" />
+      </radialGradient>
+    </defs>
+    <rect className="ambient-anim" width="100%" height="100%" fill="url(#stat-glow-repos)" />
+  </svg>
+  <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
+    <span style={{ fontSize: 36, fontWeight: 800, color: '#a87ffb', marginBottom: 2, letterSpacing: '-1px' }}>{github?.user?.repositories?.totalCount || github?.user?.publicRepos || '25'}</span>
+    <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: '3px', textTransform: 'uppercase', fontWeight: 600 }}>repos</span>
   </div>
+</div>
+
+{/* STREAMING_CHUNK:Rendering Commits Stat Card */}
+<div style={{ position: 'relative', display: 'flex', flex: 1, background: 'rgba(255,255,255,0.02)', borderRadius: 12, border: '1px solid rgba(255,255,255,0.06)', overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
+  <svg width="100%" height="100%" style={{ position: 'absolute', top: 0, left: 0, zIndex: 0 }}>
+    <defs>
+      <radialGradient id="stat-glow-commits" cx="100%" cy="100%" r="90%">
+        <stop offset="0%" stopColor="rgba(245, 166, 35, 0.15)" />
+        <stop offset="100%" stopColor="rgba(245, 166, 35, 0)" />
+      </radialGradient>
+    </defs>
+    <rect className="ambient-anim" width="100%" height="100%" fill="url(#stat-glow-commits)" />
+  </svg>
+  <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
+    <span style={{ fontSize: 36, fontWeight: 800, color: '#f5a623', marginBottom: 2, letterSpacing: '-1px' }}>{github?.user?.contributionsCollection?.totalCommitContributions || '1547'}</span>
+    <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: '3px', textTransform: 'uppercase', fontWeight: 600 }}>commits</span>
+  </div>
+</div>
 </div>
 ```
 
