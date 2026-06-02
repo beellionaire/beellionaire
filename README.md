@@ -1,16 +1,16 @@
 <div align="center">
 
-<!-- Header Interaktif dengan Animasi -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Nabeel%20Aby&fontSize=70&fontAlignY=35&desc=Software%20Engineer%20%7C%20UI/UX%20Designer&descAlignY=55&descAlign=50&descSize=20&animation=twinkling" width="100%" />
+<!-- Premium Interactive Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Nabil%20Abiyu&fontSize=70&fontAlignY=35&desc=Software%20Engineer%20%7C%20UI/UX%20Designer&descAlignY=55&descAlign=50&descSize=20&animation=twinkling" width="100%" />
 
-<!-- Teks Animasi Mengetik -->
+<!-- Dynamic Typing Effect -->
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Crafting%20Modern%20Web%20Experiences;Building%20Robust%20Backend%20Architectures;Exploring%20Fintech%20%26%20Trading%20Solutions;Designing%20Intuitive%20UI%2FUX&center=true&size=22&color=FF6A00&vCenter=true&width=600&height=50&duration=3000">
 </a>
 
 <br><br>
 
-<!-- Badges Sosial Media Premium (Monochrome) -->
+<!-- Minimalist Monochrome Social Badges -->
 <a href="https://beellionaire.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/nabil-abiyu-62622127b/"><img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://www.instagram.com/nabeel.aby/"><img src="https://img.shields.io/badge/Instagram-111111?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
@@ -22,15 +22,15 @@
 
 </div>
 
-### 👋 Kenalan Dulu, Yuk!
+### 👋 Nice to Meet You!
 
-Halo! Kenalin, aku Nabil. Senang kamu bisa mampir ke sini. Sehari-hari aku sibuk jadi *software developer* dari Indonesia 🇮🇩 yang suka banget ngebangun aplikasi *web* dari nol sampai jadi sesuatu yang keren dan bermanfaat. Buat aku, *coding* itu nggak cuma soal ngetik sintaks biar aplikasinya jalan, tapi juga gimana caranya bikin tampilan yang enak dilihat dan gampang banget dipakai sama *user*.
+Hi there! I'm Nabil. Thanks for dropping by my GitHub. I'm a software developer based in Indonesia 🇮🇩 who genuinely enjoys building web applications from the ground up. For me, coding isn't just about typing lines of syntax until a program runs; it's about crafting systems that are rock-solid under the hood while maintaining a sleek, user-friendly experience on the surface.
 
-**Apa yang lagi asyik aku kerjain akhir-akhir ini?**
+**Here’s what I’m currently up to:**
 
-*   💻 **Ngoding Harian:** Kalau urusan ngerakit *website*, aku paling nyaman dan sering banget bikin *full-stack project* pakai **Laravel** buat *backend*-nya dan **Next.js** buat *frontend*. Kombinasi ini kerasa pas banget buat bikin sistem yang kenceng, stabil, dan gampang di-*scale*.
-*   📈 **Project Seru:** Sekarang lagi *excited* banget ngembangin aplikasi asisten *trading* saham khusus buat ngebantu *trader* di *market* lokal kita. Selain itu, aku juga lagi seru-serunya ngoprek otomatisasi notifikasi dan *webhook* pakai **API Telegram**.
-*   🎨 **Pelarian Kreatif:** Kalau kepalaku udah mulai ngebul gara-gara nyari *error code* yang nggak ketemu-ketemu, pelarianku biasanya langsung buka *software* desain. Entah itu buat ngerancang *UI/UX*, ngedit video, atau sekadar bikin desain grafis. Lumayan banget buat *refreshing* otak biar *fresh* lagi!
+*   💻 **The Daily Grind:** I spend most of my time building full-stack projects. I usually go with **Laravel** to handle the heavy lifting on the backend, paired with **Next.js**, **React**, or **Tailwind CSS** to keep the frontend snappy and modern. It’s a combo that just feels right for building scalable systems.
+*   📈 **Passion Projects:** Lately, I've been diving deep into the fintech space, specifically developing a stock trading assistant tailored for the local market. I'm also having a lot of fun experimenting with real-time automation and custom notifications using **Telegram Bot Webhooks**.
+*   🎨 **Creative Escapes:** Whenever my brain feels a little fried from chasing stubborn bugs, I switch gears and open up my design tools. Whether it's drafting up fresh **UI/UX** interfaces, doing some graphic design, or editing videos, it’s my favorite way to hit refresh and keep the creativity flowing.
 
 <br>
 
@@ -39,9 +39,9 @@ Halo! Kenalin, aku Nabil. Senang kamu bisa mampir ke sini. Sehari-hari aku sibuk
 <hr style="border: 1px solid #333; width: 80%;">
 <br>
 
-### 🛠️ Senjata Andalan
+### 🛠️ The Tech Arsenal
 
-<!-- Tech Stack dikelompokkan dengan jarak yang estetik di tengah -->
+<!-- Aesthetically grouped Tech Stack -->
 <p align="center">
   <b>Frontend & Frameworks</b><br><br>
   <img src="https://skillicons.dev/icons?i=js,ts,react,next,tailwind,bootstrap,dart,flutter&theme=dark" />
@@ -59,9 +59,9 @@ Halo! Kenalin, aku Nabil. Senang kamu bisa mampir ke sini. Sehari-hari aku sibuk
 
 <br><br>
 
-### ⚡ Statistik Perjalanan Kode
+### ⚡ Journey & Metrics
 
-<!-- Statistik menggunakan ukuran width proporsional agar sejajar -->
+<!-- Proportionally sized stats -->
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=transparent&hide_border=true&title_color=FF6A00&icon_color=FF6A00&text_color=a6adc8" width="48%" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beellionaire&layout=compact&theme=transparent&hide_border=true&title_color=FF6A00&text_color=a6adc8" width="48%" alt="Top Languages" />
@@ -73,15 +73,15 @@ Halo! Kenalin, aku Nabil. Senang kamu bisa mampir ke sini. Sehari-hari aku sibuk
 
 <br><br>
 
-### 📈 Jejak Kontribusi
+### 📈 Contribution Activity
 
-<!-- Grafik aktivitas GitHub -->
+<!-- GitHub Activity Graph -->
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=beellionaire&bg_color=transparent&color=FF6A00&line=FF6A00&point=FFFFFF&hide_border=true" width="100%" alt="Activity Graph" />
 </p>
 
 <br><br>
 
-<i>Terus eksplorasi, terus berkarya.</i> 🚀
+<i>Keep Building. Keep Exploring.</i> 🚀
 
 </div>
