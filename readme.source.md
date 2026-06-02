@@ -37,7 +37,7 @@
 
   {/* Content Layer */}
   <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
-    <span style={{ fontSize: 64, fontWeight: 800, color: '#ffffff', letterSpacing: '-2px', lineHeight: 1, textShadow: '0 4px 20px rgba(0,0,0,0.8)' }}>Nabil Abiyu.</span>
+    <span style={{ fontSize: 64, fontWeight: 800, color: '#ffffff', letterSpacing: '-2px', lineHeight: 1, textShadow: '0 4px 20px rgba(0,0,0,0.8)' }}>beellionaire</span>
     <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.7)', marginTop: 16, letterSpacing: '6px', textTransform: 'uppercase', fontWeight: 500 }}>engineering · ui/ux · fintech</span>
 
     <div style={{ display: 'flex', gap: 10, marginTop: 30 }}>
@@ -72,13 +72,13 @@
     </svg>
 
     <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '0 30px', zIndex: 10 }}>
-      <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', letterSpacing: '4px', textTransform: 'uppercase', marginBottom: 10, fontWeight: 600 }}>about</span>
-      <span style={{ fontSize: 22, fontWeight: 700, color: '#f8f9fa', lineHeight: 1.3 }}>Building robust systems &</span>
-      <span style={{ fontSize: 22, fontWeight: 700, color: '#f8f9fa', lineHeight: 1.3 }}>localized trading tools.</span>
-      <div style={{ display: 'flex', alignItems: 'center', marginTop: 14 }}>
-        <span style={{ fontSize: 12, color: '#2ecc71', fontWeight: 500, letterSpacing: '0.5px' }}>{'> open to collaborations_'}</span>
-      </div>
+    <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', letterSpacing: '4px', textTransform: 'uppercase', marginBottom: 10, fontWeight: 600 }}>about</span>
+    <span style={{ fontSize: 22, fontWeight: 700, color: '#f8f9fa', lineHeight: 1.3 }}>Building robust systems &</span>
+    <span style={{ fontSize: 22, fontWeight: 700, color: '#f8f9fa', lineHeight: 1.3 }}>localized trading tools.</span>
+    <div style={{ display: 'flex', alignItems: 'center', marginTop: 14 }}>
+      <span style={{ fontSize: 12, color: '#2ecc71', fontWeight: 500, letterSpacing: '0.5px' }}>{'> open to collaborations_'}</span>
     </div>
+  </div>
   </div>
 
   {/* Mini Cards */}
