@@ -20,6 +20,27 @@
     #glow-violet { animation: ambient-drift 18s ease-in-out infinite reverse; }
   `}</style>
 
+{/\_ Latar Belakang Aura Minimalis \_/} \<svg width="860" height="200" style={{ position: 'absolute', top: 0, left: 0, opacity: 0.8 }}> <defs> <radialGradient id="grad-cyan" cx="50%" cy="50%" r="50%"> <stop offset="0%" stopColor="rgba(0, 255, 204, 0.20)" /> <stop offset="50%" stopColor="rgba(0, 255, 204, 0.05)" /> <stop offset="100%" stopColor="rgba(0, 255, 204, 0)" /> </radialGradient> <radialGradient id="grad-blue" cx="50%" cy="50%" r="50%"> <stop offset="0%" stopColor="rgba(0, 119, 255, 0.25)" /> <stop offset="50%" stopColor="rgba(0, 119, 255, 0.08)" /> <stop offset="100%" stopColor="rgba(0, 119, 255, 0)" /> </radialGradient> <radialGradient id="grad-violet" cx="50%" cy="50%" r="50%"> <stop offset="0%" stopColor="rgba(139, 92, 246, 0.15)" /> <stop offset="50%" stopColor="rgba(139, 92, 246, 0.05)" /> <stop offset="100%" stopColor="rgba(139, 92, 246, 0)" /> </radialGradient> </defs>
+
+```
+<ellipse id="glow-cyan" cx="200" cy="100" rx="300" ry="200" fill="url(#grad-cyan)" />
+<ellipse id="glow-blue" cx="600" cy="150" rx="400" ry="250" fill="url(#grad-blue)" />
+<ellipse id="glow-violet" cx="400" cy="0" rx="350" ry="200" fill="url(#grad-violet)" />
+```
+
+  </svg>
+
+{/\_ Pattern Grid Transparan (Memberikan tekstur "Tech" yang mewah) \_/}
+
+  <div style={{
+    position: 'absolute', top: 0, left: 0, right: 0, bottom: 0,
+    backgroundImage: 'linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px)',
+    backgroundSize: '20px 20px',
+    opacity: 1, zIndex: 1
+  }}></div>
+
+{/\_ Konten Utama \_/}
+
 {/\* Latar Belakang Aura Minimalis \*/}
 \<svg width="860" height="200" style={{ position: 'absolute', top: 0, left: 0, opacity: 0.8 }}> <defs> <radialGradient id="grad-cyan" cx="50%" cy="50%" r="50%"> <stop offset="0%" stopColor="rgba(0, 255, 204, 0.20)" /> <stop offset="50%" stopColor="rgba(0, 255, 204, 0.05)" /> <stop offset="100%" stopColor="rgba(0, 255, 204, 0)" /> </radialGradient> <radialGradient id="grad-blue" cx="50%" cy="50%" r="50%"> <stop offset="0%" stopColor="rgba(0, 119, 255, 0.25)" /> <stop offset="50%" stopColor="rgba(0, 119, 255, 0.08)" /> <stop offset="100%" stopColor="rgba(0, 119, 255, 0)" /> </radialGradient> <radialGradient id="grad-violet" cx="50%" cy="50%" r="50%"> <stop offset="0%" stopColor="rgba(139, 92, 246, 0.15)" /> <stop offset="50%" stopColor="rgba(139, 92, 246, 0.05)" /> <stop offset="100%" stopColor="rgba(139, 92, 246, 0)" /> </radialGradient> </defs>
 
@@ -58,6 +79,19 @@
 
 {/* Teks & Lencana Bahasa */}
 <div style={{ display:'flex', flexDirection:'column', marginLeft: 35, gap: 4 }}>
+
+  <div style={{ display:'flex', fontSize: 11, fontWeight: 600, color: '#00ffcc', letterSpacing: '2px', textTransform: 'uppercase', marginBottom: 2 }}>
+    Software Engineer • UI/UX Designer
+  </div>
+
+  <div style={{ display:'flex', fontSize: 40, fontWeight: 800, color: '#ffffff', letterSpacing: '-1px', lineHeight: 1.1 }}>
+    {github?.user?.name || github?.user?.login || 'Nabil Abiyu'}
+  </div>
+
+  <div style={{ display:'flex', fontSize: 14, color: '#8b949e', fontWeight: 400, letterSpacing: '0.3px', maxWidth: 550, marginTop: 4 }}>
+    {github?.user?.bio || 'Building scalable architectures and designing intuitive digital experiences from Indonesia.'}
+  </div>
+
   
   <div style={{ display:'flex', fontSize: 11, fontWeight: 600, color: '#00ffcc', letterSpacing: '2px', textTransform: 'uppercase', marginBottom: 2 }}>
     Software Engineer • UI/UX Designer
