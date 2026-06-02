@@ -107,18 +107,20 @@ OPEN FOR  → Collab · Freelance
 <br>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=tokyonight&hide_border=false" width="48%" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com/?user=beellionaire&theme=tokyonight&hide_border=false" width="48%" alt="GitHub Streak" />
+  <!-- Ditambahkan &v=1 dan &cache_seconds=86400 di akhir URL -->
+  <img src="https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=tokyonight&hide_border=false&v=1&cache_seconds=86400" width="48%" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com/?user=beellionaire&theme=tokyonight&hide_border=false&v=1" width="48%" alt="GitHub Streak" />
 </p>
 
 <br>
 
-<!-- Menambahkan Activity Graph dengan tema tokyo-night agar serasi dengan terminal -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=beellionaire&theme=tokyo-night&hide_border=false" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=beellionaire&theme=tokyo-night&hide_border=false&v=1" width="100%" alt="Activity Graph" />
 </p>
 
 <br><br>
+
+
 
 <div align="center">
   <p style="color: #8892b0;">
