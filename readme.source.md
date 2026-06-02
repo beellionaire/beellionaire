@@ -41,9 +41,9 @@
     <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.7)', marginTop: 16, letterSpacing: '6px', textTransform: 'uppercase', fontWeight: 500 }}>engineering · ui/ux · fintech</span>
 
     <div style={{ display: 'flex', gap: 10, marginTop: 30 }}>
-      <span style={{ padding: '6px 18px', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.9)', borderRadius: 8, fontSize: 11, fontWeight: 500, border: '1px solid rgba(255,255,255,0.15)', letterSpacing: 1 }}>laravel</span>
-      <span style={{ padding: '6px 18px', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.9)', borderRadius: 8, fontSize: 11, fontWeight: 500, border: '1px solid rgba(255,255,255,0.15)', letterSpacing: 1 }}>full-stack</span>
-      <span style={{ padding: '6px 18px', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.9)', borderRadius: 8, fontSize: 11, fontWeight: 500, border: '1px solid rgba(255,255,255,0.15)', letterSpacing: 1 }}>indonesia</span>
+      <span style={{ padding: '6px 18px', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.9)', borderRadius: 8, fontSize: 11, fontWeight: 500, border: '1px solid rgba(255,255,255,0.15)', letterSpacing: 1 }}>Front-end</span>
+      <span style={{ padding: '6px 18px', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.9)', borderRadius: 8, fontSize: 11, fontWeight: 500, border: '1px solid rgba(255,255,255,0.15)', letterSpacing: 1 }}>UI/UX Design</span>
+      <span style={{ padding: '6px 18px', background: 'rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.9)', borderRadius: 8, fontSize: 11, fontWeight: 500, border: '1px solid rgba(255,255,255,0.15)', letterSpacing: 1 }}>Web Dev</span>
     </div>
   </div>
 </div>
@@ -73,8 +73,8 @@
 
     <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '0 30px', zIndex: 10 }}>
     <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', letterSpacing: '4px', textTransform: 'uppercase', marginBottom: 10, fontWeight: 600 }}>about</span>
-    <span style={{ fontSize: 22, fontWeight: 700, color: '#f8f9fa', lineHeight: 1.3 }}>Building robust systems &</span>
-    <span style={{ fontSize: 22, fontWeight: 700, color: '#f8f9fa', lineHeight: 1.3 }}>localized trading tools.</span>
+    <span style={{ fontSize: 22, fontWeight: 700, color: '#f8f9fa', lineHeight: 1.3 }}>Building seamless application &</span>
+    <span style={{ fontSize: 22, fontWeight: 700, color: '#f8f9fa', lineHeight: 1.3 }}>robust system.</span>
     <div style={{ display: 'flex', alignItems: 'center', marginTop: 14 }}>
       <span style={{ fontSize: 12, color: '#2ecc71', fontWeight: 500, letterSpacing: '0.5px' }}>{'> open to collaborations_'}</span>
     </div>
