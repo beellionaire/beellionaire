@@ -71,10 +71,10 @@
 ### ⚡ Performance & Analytics
 
 <!-- Statistik Transparan (Bug fix pada parameter URL) -->
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=transparent&hide_border=true&title_color=FF6A00&icon_color=FF6A00&text_color=a6adc8" height="180" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beellionaire&layout=compact&theme=transparent&hide_border=true&title_color=FF6A00&text_color=a6adc8" height="180" alt="Top Languages" />
-</p>
+</p> -->
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=beellionaire&theme=transparent&hide_border=true&title_color=FF6A00&text_color=a6adc8&icon_color=FF6A00" alt="GitHub Streak" />
