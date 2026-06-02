@@ -1,129 +1,83 @@
-<!-- 🌟 PREMIUM HEADER SECTION 🌟 -->
 <div align="center">
-
-  <!-- 1. Banner Premium dengan Gradien Gelap & Efek Bintang (Twinkling) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0d1117&height=250&section=header&text=NABEEL%20ABIYU&fontSize=65&fontAlignY=38&fontColor=00ffcc&desc=Full-Stack%20Developer%20%C2%B7%20UI/UX%20Designer&descAlignY=55&descSize=20&descColor=8892b0&animation=twinkling" width="100%" alt="Premium Banner">
-
-  <!-- 2. Efek Mengetik (Typing SVG) dengan Aksen Neon Cyan -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Building+robust+web+applications;Crafting+pixel-perfect+interfaces;Exploring+fintech+%26+automation;Turning+coffee+into+clean+code+☕&center=true&size=20&color=00ffcc&vCenter=true&width=600&height=50&duration=3000" alt="Typing effect">
-  </a>
-
-  <br>
-
-  <!-- 3. Elite Social Badges (Tautan Sosmed dengan Desain Neon & Outline) -->
-  <p align="center">
-    <a href="https://beellionaire.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-111111?style=for-the-badge&logo=About.me&logoColor=00ffcc&labelColor=111111&color=00ffcc" alt="Portfolio" /></a>
-    <a href="https://www.linkedin.com/in/nabil-abiyu-62622127b/"><img src="https://img.shields.io/badge/LINKEDIN-111111?style=for-the-badge&logo=linkedin&logoColor=00ffcc&labelColor=111111&color=00ffcc" alt="LinkedIn" /></a>
-    <a href="https://www.instagram.com/nabeel.aby/"><img src="https://img.shields.io/badge/INSTAGRAM-111111?style=for-the-badge&logo=instagram&logoColor=ff007f&labelColor=111111&color=ff007f" alt="Instagram" /></a>
-    <a href="mailto:nabeelabiyu@gmail.com"><img src="https://img.shields.io/badge/EMAIL-111111?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=111111&color=ffffff" alt="Email" /></a>
-  </p>
-
-  <br>
-
-  <p align="center" style="color: #8892b0;">
-    <b>Building robust web applications & automated solutions, simple enough for everyone.</b><br>
-    Follow my GitHub & ⭐ star the repos — more awesome projects are coming. See you there!
-  </p>
-  
-  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=beellionaire&label=PROFILE+VIEWS&color=00ffcc&labelColor=111111&style=for-the-badge" alt="Profile Views" />
-  </p>
-
+  <img src="https://komarev.com/ghpvc/?username=beellionaire&label=Profile+views&color=0e75b6&style=flat-square" alt="Profile Views" />
 </div>
+
+<br><br>
+
+<div align="center">
+  <!-- Neon Typography Header -->
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=900&size=60&pause=1000&color=FFFFFF&center=true&vCenter=true&width=400&height=80&lines=NABIL" alt="NABIL" />
+  <br>
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=30&lines=F+U+L+L+-+S+T+A+C+K+++D+E+V+E+L+O+P+E+R" alt="Role" />
+  <br>
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=400&size=12&pause=1000&color=b026ff&center=true&vCenter=true&width=700&height=20&lines=A+P+P+L+I+C+A+T+I+O+N+++E+N+G+I+N+E+E+R+I+N+G+++|+++U+I+/+U+X" alt="Sub-role" />
+  <br>
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=400&size=10&pause=1000&color=00ffcc&center=true&vCenter=true&width=700&height=20&lines=L+A+R+A+V+E+L+++|+++N+E+X+T+.+J+S+++|+++A+P+I+++I+N+T+E+G+R+A+T+I+O+N" alt="Tech" />
+  <br><br>
+  <p style="font-family: monospace; font-size: 11px; color: #444444;">github.com/beellionaire</p>
+</div>
+
+<br><br>
+
+<!-- Tech Stack Pills (Dark Mode Outlined Look) -->
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-111111?style=flat-square&logo=php&logoColor=777BB4&color=111111" alt="PHP" />
+  <img src="https://img.shields.io/badge/Laravel-111111?style=flat-square&logo=laravel&logoColor=FF2D20&color=111111" alt="Laravel" />
+  <img src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=F7DF1E&color=111111" alt="JS" />
+  <img src="https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=ffffff&color=111111" alt="Next" />
+  <img src="https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=61DAFB&color=111111" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind-111111?style=flat-square&logo=tailwindcss&logoColor=38B2AC&color=111111" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/MySQL-111111?style=flat-square&logo=mysql&logoColor=4479A1&color=111111" alt="MySQL" />
+</p>
 
 <br>
 
-<!-- 👨‍💻 WHOAMI (TERMINAL SECTION) 👨‍💻 -->
-<hr style="border: 1px solid #21262d;">
-<h3>&nbsp; [ WHOAMI ] </h3>
-<hr style="border: 1px solid #21262d;">
-
-<!-- Terminal Side-by-Side menggunakan HTML Table -->
-<table width="100%" style="background-color: transparent; border-collapse: collapse; border: none;">
+<!-- Stats Table (Manual input agar desain 4 kolom persis dengan referensi) -->
+<table width="100%" style="background-color: transparent; border: none; text-align: center;">
   <tr style="border: none;">
-    <td width="50%" style="border: none; padding: 5px;">
-      <pre style="background-color: #0d1117; color: #c9d1d9; padding: 15px; border-radius: 6px; border: 1px solid #30363d; font-family: monospace; font-size: 13px; line-height: 1.6;">
-┌──(nabil@workspace)-[~]
-└─$ whoami --verbose
-
-UID       → Nabil Abiyu
-LOCATION  → Indonesia, ID
-ROLE      → Full-Stack Web Dev
-PRINCIPLE → "Clean code, pixel-perfect."
-STATUS    → ██████████ ONLINE
-      </pre>
+    <td style="border: none; width: 25%;">
+      <h2 style="margin-bottom: 0;">41</h2>
+      <b style="color: #e3b341; font-size: 11px; letter-spacing: 2px;">S T A R S</b>
     </td>
-    <td width="50%" style="border: none; padding: 5px;">
-      <pre style="background-color: #0d1117; color: #c9d1d9; padding: 15px; border-radius: 6px; border: 1px solid #30363d; font-family: monospace; font-size: 13px; line-height: 1.6;">
-┌──(nabil@workspace)-[~]
-└─$ cat focus.txt
-
-LANGUAGES → PHP · JS/TS · Dart
-TOOLS     → Laravel · Next.js · React
-FOCUS     → Fintech · Webhooks · UI/UX
-NOW       → [ Learning ] [ Building ]
-OPEN FOR  → Collab · Freelance
-      </pre>
+    <td style="border: none; width: 25%;">
+      <h2 style="margin-bottom: 0;">4</h2>
+      <b style="color: #b026ff; font-size: 11px; letter-spacing: 2px;">F O R K S</b>
+    </td>
+    <td style="border: none; width: 25%;">
+      <h2 style="margin-bottom: 0;">62</h2>
+      <b style="color: #58a6ff; font-size: 11px; letter-spacing: 2px;">R E P O S</b>
+    </td>
+    <td style="border: none; width: 25%;">
+      <h2 style="margin-bottom: 0;">966</h2>
+      <b style="color: #ff3d7f; font-size: 11px; letter-spacing: 2px;">C O M M I T S</b>
     </td>
   </tr>
 </table>
 
-<br>
+<br><br>
 
-<!-- 🛠️ TECH STACK SECTION 🛠️ -->
-<hr style="border: 1px solid #21262d;">
-<h3>&nbsp; [ TECH STACK ] </h3>
-<hr style="border: 1px solid #21262d;">
-
-<br>
-
-<p align="center" style="color: #8892b0;">
-  <b>◆ Languages & Frameworks ◆</b><br><br>
-  <img src="https://skillicons.dev/icons?i=php,js,ts,dart,laravel,next,react,tailwind,bootstrap,flutter&theme=dark" alt="Languages" />
-</p>
-
-<br>
-
-<p align="center" style="color: #8892b0;">
-  <b>◆ Design & Dev Tools ◆</b><br><br>
-  <img src="https://skillicons.dev/icons?i=figma,ps,pr,ai,vscode,git,github&theme=dark" alt="Design Tools" />
-</p>
-
-<br>
-
-<p align="center" style="color: #8892b0;">
-  <b>◆ Databases & Environments ◆</b><br><br>
-  <img src="https://skillicons.dev/icons?i=mysql,mongodb,golang,linux&theme=dark" alt="Databases" />
-</p>
+<h4 style="color: #58a6ff; font-family: monospace; letter-spacing: 2px;">S T A C K &nbsp; A N A L Y T I C S</h4>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=beellionaire&layout=compact&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&icon_color=b026ff&v=2" width="100%" alt="Top Languages" />
 
 <br><br>
 
-<!-- ⚡ GITHUB STATS SECTION ⚡ -->
-<hr style="border: 1px solid #21262d;">
-<h3>&nbsp; [ GITHUB STATS ] </h3>
-<hr style="border: 1px solid #21262d;">
-
-<br>
-
-<p align="center">
-  <!-- Ditambahkan &v=1 dan &cache_seconds=86400 di akhir URL -->
-  <img src="https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=tokyonight&hide_border=false&v=1&cache_seconds=86400" width="48%" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com/?user=beellionaire&theme=tokyonight&hide_border=false&v=1" width="48%" alt="GitHub Streak" />
-</p>
-
-<br>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=beellionaire&theme=tokyo-night&hide_border=false&v=1" width="100%" alt="Activity Graph" />
-</p>
+<h4 style="color: #58a6ff; font-family: monospace; letter-spacing: 2px;">A C T I V I T Y &nbsp; P U L S E</h4>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=beellionaire&bg_color=00000000&color=b026ff&line=58a6ff&point=ffffff&hide_border=true&v=2" width="100%" alt="Activity Graph" />
 
 <br><br>
 
-
-
-<div align="center">
-  <p style="color: #8892b0;">
-    <i>Keep Building. Keep Exploring.</i> 🚀
-  </p>
-</div>
+<h4 style="color: #58a6ff; font-family: monospace; letter-spacing: 2px;">P R I M A R Y &nbsp; D E P L O Y M E N T S</h4>
+<table width="100%" style="border: none; background-color: transparent;">
+  <tr style="border: none;">
+    <!-- Ganti 'nama-repo-1' dan seterusnya dengan nama repository GitHub milikmu -->
+    <td style="border: none; padding: 5px;" width="33%">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=beellionaire&repo=nama-repo-1&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=c9d1d9&icon_color=58a6ff&v=2" width="100%" alt="Deployment 1" />
+    </td>
+    <td style="border: none; padding: 5px;" width="33%">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=beellionaire&repo=nama-repo-2&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=c9d1d9&icon_color=b026ff&v=2" width="100%" alt="Deployment 2" />
+    </td>
+    <td style="border: none; padding: 5px;" width="33%">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=beellionaire&repo=nama-repo-3&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=c9d1d9&icon_color=ff3d7f&v=2" width="100%" alt="Deployment 3" />
+    </td>
+  </tr>
+</table>
