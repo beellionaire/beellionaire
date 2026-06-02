@@ -1,109 +1,64 @@
-<!-- ## Hi! This is Beellionaire👋 -->
-
-<!-- ![Beellionaire](img/github-header-image.png) -->
-
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=beellionaire.beellionaire">
-
-<h1 align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,+This+is+Beel+👨‍💻;I+am+a+Front-end+Dev+&center=true&size=30&color=FF6A00">
-  </a>
-</h1>
-
 <div align="center">
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/nabeel.aby/) [![Portfolio](https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white)](https://beellionaire.vercel.app/) [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://instagram.com/nabeel.aby) [![Strava](https://img.shields.io/badge/Strava-FC4C02?style=for-the-badge&logo=strava&logoColor=white)](https://instagram.com/nabeel.aby) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nabil-abiyu-62622127b/)
+<!-- Header Animasi -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1&height=250&section=header&text=Hi!%20I'm%20Nabil%20Abiyu&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Front-end%20%26%20Software%20Developer&descAlignY=55&descAlign=50" width="100%" />
 
-</div>
-<br>
+<!-- Typing Effect -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Full-Stack+Web+Developer+👨‍💻;Laravel+%26+Next.js+Enthusiast+🚀;UI%2FUX+%26+Graphic+Designer+🎨&center=true&size=20&color=FF6A00&duration=3000">
+</a>
+
+<!-- Social Badges -->
 <p align="center">
-  Hi, I'm Nabeel Aby, Front-end & Software Developer from Indonesia
-  <br>
-  <!-- <br>
-  🔬 I'm currently studying for my doctorate at Atatürk University, Department of Computer Engineering
-  <br>
-  🎓 I graduated from Atatürk University, Department of Computer Engineering (Master)
-  <br>
-  🎓 I graduated from Black Sea Technical University, Department of Computer Engineering (Undergraduate)
-  <br>
-  🎓 I graduated from Erzurum İbrahim Hakkı Science High School
-  <br>
-  💻 I love writing code and learn anythings about it
-  <br>
-  📚 I’m currently learning how to build E-Commerce Website with Django
-  <br>
-  💬 Ask me anything about from <a href="https://github.com/zumrudu-anka/zumrudu-anka/issues" title="Issues">Here</a>
-  <br> -->
-  📫 How to reach me: <a href="mailto: nabeelabiyu@gmail.com">nabeelabiyu@gmail.com</a>
+  <a href="https://beellionaire.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/nabil-abiyu-62622127b/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.instagram.com/nabeel.aby/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://instagram.com/nabeel.aby"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" /></a>
+  <a href="https://instagram.com/nabeel.aby"><img src="https://img.shields.io/badge/Strava-FC4C02?style=for-the-badge&logo=strava&logoColor=white" alt="Strava" /></a>
 </p>
 
-<br/>
-<br/>
-
-<!--
-**beellionaire/beellionaire** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ... -->
-
-<!-- <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-<img src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-<img src="https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" /> -->
-
-<div align="center">
-<h2 align="center">✨ Competencies ✨</h2>
-
-![My Skills](https://skillicons.dev/icons?i=js,ts,php,golang,dart,react,next,laravel,flutter,tailwind,mongodb,mysql,ps,pr,ai)
-
+<!-- Profil Singkat -->
+  Membangun antarmuka modern yang interaktif dan arsitektur backend yang kokoh dari Indonesia. 🇮🇩
 </div>
 
 <br/>
+
+### 👨‍💻 Tentang Saya
+
+- 💻 Saat ini fokus pada pengembangan **Full-stack Web** dan merancang arsitektur sistem yang efisien.
+- 🚀 Ahli dalam membangun ekosistem web menggunakan **Laravel, Next.js, React, dan Tailwind CSS**.
+- ⚙️ Tertarik pada otomatisasi real-time seperti **Integrasi Webhook API Telegram**.
+- 📈 Memiliki ketertarikan kuat dalam pengembangan teknologi finansial dan **Aplikasi Asisten Trading**.
+- 🎨 Menyediakan layanan digital menyeluruh mencakup **UI/UX Design, Graphic Design, dan Video Editing**.
+- 📫 Mari berkolaborasi atau sekadar menyapa via email: **[nabeelabiyu@gmail.com](mailto:nabeelabiyu@gmail.com)**
+
 <br/>
 
-<!-- ![Beel's GitHub stats](https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=github_dark) -->
+### ✨ Tech Stack & Tools
 
-<!-- <div align="center">
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,php,golang,dart&theme=dark" alt="Languages" /><br/>
+  <img src="https://skillicons.dev/icons?i=react,next,laravel,flutter,tailwind&theme=dark" alt="Frameworks" /><br/>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,ps,pr,ai&theme=dark" alt="Tools & DB" />
+</div>
 
-## Current performance overview🗿
+<br/>
 
-  <img src="https://github-readme-stats.vercel.app/api?username=beellionaire&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=github_dark&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=beellionaire&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=github_dark&hide_border=false" height="150" alt="languages graph"  />
-</div> -->
+### ⚡ GitHub Analytics
 
-<h2 align="center">⚡ Current Stats ⚡</h2>
-<!-- <p align=center>
-  <div align=center>
-      <img align="left" width=390 src="https://streak-stats.demolab.com/?user=beellionaire&theme=react&border=61dafb&hide_border=true" alt="beellionaire" />
-      <img align="right" width=390 src="https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=react&border_color=61dafb&hide_border=true" />
-  </div>
-  <br><br><br><br><br><br><br><br><br>
-  <div align=center>
-      <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=beellionaire&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true&size_weight=0.5&count_weight=0.5" />
-  </div>
-  <br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=beellionaire&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
-</p> -->
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=beellionaire&show_icons=true&theme=tokyonight&border_color=2e3440&hide_border=true&bg_color=0d1117" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=beellionaire&locale=en&hide_title=false&layout=compact&card_width=320&theme=tokyonight&border_color=2e3440&hide_border=true&bg_color=0d1117" width="48%" alt="Top Languages" />
+</div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beellionaire/beellionaire/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/beellionaire/beellionaire/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/beellionaire/beellionaire/output/pacman-contribution-graph.svg">
-</picture>
+<br/>
+
+### 🕹️ Kontribusi
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/beellionaire/beellionaire/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/beellionaire/beellionaire/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/beellionaire/beellionaire/output/pacman-contribution-graph.svg" width="100%">
+  </picture>
+</div>
