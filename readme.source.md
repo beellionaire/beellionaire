@@ -101,14 +101,14 @@
 ```aura width=800 height=200
 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: 'transparent', fontFamily: 'Inter, sans-serif' }}>
 
-  {/* Main Pill Container */}
+  {/* Main Pill Container - Set to 100% Width to match other cards */}
   <div style={{
     position: 'relative',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    width: '90%',
-    height: 72,
+    width: '100%',
+    height: '100%',
     background: '#060608',
     borderRadius: 60,
     border: '1px solid rgba(90, 70, 140, 0.25)',
@@ -117,35 +117,35 @@
   }}>
 
     {/* Ambient Glows inside the container (Bottom Right Bleed) */}
-    <div style={{ position: 'absolute', bottom: -40, right: 60, width: 300, height: 120, background: 'radial-gradient(ellipse, rgba(0, 110, 255, 0.45) 0%, rgba(120, 40, 255, 0.2) 50%, transparent 70%)', filter: 'blur(20px)', zIndex: 0 }}></div>
-    <div style={{ position: 'absolute', bottom: -20, right: -20, width: 150, height: 80, background: 'radial-gradient(ellipse, rgba(255, 80, 150, 0.15) 0%, transparent 70%)', filter: 'blur(15px)', zIndex: 0 }}></div>
+    <div style={{ position: 'absolute', bottom: -50, right: 80, width: 350, height: 140, background: 'radial-gradient(ellipse, rgba(0, 110, 255, 0.45) 0%, rgba(120, 40, 255, 0.2) 50%, transparent 70%)', filter: 'blur(20px)', zIndex: 0 }}></div>
+    <div style={{ position: 'absolute', bottom: -20, right: -20, width: 180, height: 100, background: 'radial-gradient(ellipse, rgba(255, 80, 150, 0.15) 0%, transparent 70%)', filter: 'blur(15px)', zIndex: 0 }}></div>
 
     {/* Tech Tags */}
-    <div style={{ display: 'flex', gap: 14, zIndex: 10, padding: '0 20px' }}>
+    <div style={{ display: 'flex', gap: 16, zIndex: 10, padding: '0 20px' }}>
 
       <span style={{
-        padding: '8px 20px', borderRadius: 24, border: '1px solid rgba(110, 80, 200, 0.4)',
-        color: '#8bcefa', fontSize: 13, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
+        padding: '8px 24px', borderRadius: 30, border: '1px solid rgba(110, 80, 200, 0.4)',
+        color: '#8bcefa', fontSize: 14, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
       }}>TypeScript</span>
 
       <span style={{
-        padding: '8px 20px', borderRadius: 24, border: '1px solid rgba(110, 80, 200, 0.4)',
-        color: '#7ae28d', fontSize: 13, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
+        padding: '8px 24px', borderRadius: 30, border: '1px solid rgba(110, 80, 200, 0.4)',
+        color: '#7ae28d', fontSize: 14, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
       }}>Laravel</span>
 
       <span style={{
-        padding: '8px 20px', borderRadius: 24, border: '1px solid rgba(110, 80, 200, 0.4)',
-        color: '#e8b0ff', fontSize: 13, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
+        padding: '8px 24px', borderRadius: 30, border: '1px solid rgba(110, 80, 200, 0.4)',
+        color: '#e8b0ff', fontSize: 14, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
       }}>Next.js</span>
 
       <span style={{
-        padding: '8px 20px', borderRadius: 24, border: '1px solid rgba(110, 80, 200, 0.4)',
-        color: '#6bf0ff', fontSize: 13, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
+        padding: '8px 24px', borderRadius: 30, border: '1px solid rgba(110, 80, 200, 0.4)',
+        color: '#6bf0ff', fontSize: 14, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
       }}>React JSX</span>
 
       <span style={{
-        padding: '8px 20px', borderRadius: 24, border: '1px solid rgba(110, 80, 200, 0.4)',
-        color: '#ffc299', fontSize: 13, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
+        padding: '8px 24px', borderRadius: 30, border: '1px solid rgba(110, 80, 200, 0.4)',
+        color: '#ffc299', fontSize: 14, fontWeight: 600, background: 'rgba(0,0,0,0.3)', letterSpacing: '0.3px'
       }}>Tailwind CSS</span>
 
     </div>
