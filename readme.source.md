@@ -82,6 +82,7 @@
   </div>
 
   {/* STREAMING_CHUNK:Rendering Repos Stat Card */}
+  {console.log("Data GitHub dari dalam JSX:", github)}
 <div style={{ position: 'relative', display: 'flex', flex: 1, background: 'rgba(255,255,255,0.02)', borderRadius: 12, border: '1px solid rgba(255,255,255,0.06)', overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
   <svg width="100%" height="100%" style={{ position: 'absolute', top: 0, left: 0, zIndex: 0 }}>
     <defs>
