@@ -82,7 +82,6 @@
   </div>
 
   {/* STREAMING_CHUNK:Rendering Repos Stat Card */}
-  {console.log("Data GitHub dari dalam JSX:", github)}
 <div style={{ position: 'relative', display: 'flex', flex: 1, background: 'rgba(255,255,255,0.02)', borderRadius: 12, border: '1px solid rgba(255,255,255,0.06)', overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
   <svg width="100%" height="100%" style={{ position: 'absolute', top: 0, left: 0, zIndex: 0 }}>
     <defs>
@@ -95,8 +94,9 @@
   </svg>
   <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
     <span style={{ fontSize: 36, fontWeight: 800, color: '#a87ffb', marginBottom: 2, letterSpacing: '-1px' }}>
-  {github?.user?.repositories?.totalCount ?? github?.user?.public_repos ?? github?.user?.publicRepos ?? '25'}
-  </span>
+      {/* 👇 PERBAIKAN DI SINI 👇 */}
+      {github?.stats?.totalRepos ?? '0'}
+    </span>
     <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: '3px', textTransform: 'uppercase', fontWeight: 600 }}>repos</span>
   </div>
 </div>
@@ -113,9 +113,10 @@
     <rect className="ambient-anim" width="100%" height="100%" fill="url(#stat-glow-commits)" />
   </svg>
   <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
-   <span style={{ fontSize: 36, fontWeight: 800, color: '#f5a623', marginBottom: 2, letterSpacing: '-1px' }}>
-  {github?.user?.contributionsCollection?.totalCommitContributions ?? '1547'}
-</span>
+    <span style={{ fontSize: 36, fontWeight: 800, color: '#f5a623', marginBottom: 2, letterSpacing: '-1px' }}>
+      {/* 👇 PERBAIKAN DI SINI 👇 */}
+      {github?.stats?.totalCommits ?? '0'}
+    </span>
     <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', letterSpacing: '3px', textTransform: 'uppercase', fontWeight: 600 }}>commits</span>
   </div>
 </div>
